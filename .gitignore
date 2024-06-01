@@ -1,0 +1,47 @@
+# ビルドアーティファクト
+/bin/
+/obj/
+/out/
+/dist/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+
+# パッケージディレクトリ
+/pkg/
+
+# ビルドキャッシュとモジュールキャッシュ
+/.cache/
+/.cache/
+/*.cache
+/.local
+/.local/
+**/*.cache
+
+# Goプライベートディレクトリ（場合による）
+/private/
+
+# ログファイル
+*.log
+
+# カバレッジファイル
+*.cover
+
+# デバッグファイル
+*.prof
+
+# IDE関連のファイルとディレクトリ
+.idea/
+.vscode/
+*.iml
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# モジュールファイル
+vendor/
+
